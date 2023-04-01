@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/10.7.2/styles/default.min.css">
+    <style>
+        img {
+            height: 256px;
+        }
+    </style>
+    <title>Imagens</title>
+</head>
+<body>
+    <header>
+        <h1>Desafio das Imagens em <abbr title="Hypertext Markup Language">HTML5</abbr></h1>
+    </header>
+    <main>
+        <p>Adicionar imagens em HTML5 é muito simples, para adicionar em seu conteúdo(body) usamos a tag &lt;img&gt;. <br> Já para colocar no ícone de favoritos podemos usar a tag &lt;link&gt; dentro da tag &lt;head&gt; de nosso site. <br> Veja os exemplos!</p>
+        <pre><code class=" hljs language-html">
+            &lt;img src="caminho/para/seu_arquivo.png" alt="Texto alternativo"&gt;
+            <br>
+            &lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;
+        </code></pre>
+        <img src="images/favicon-32x32.png" alt="Imagem">
+    </main>
+    <script src="https://cdn.jsdelivr.net/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
